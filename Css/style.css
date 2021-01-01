@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.links {
+  list-style: none;
+}
+
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+  .logo img {
+    height: 90px;
+    margin-top: 30px;
+  }
+  .decorators img {
+    height: 90px;
+    position: absolute;
+    bottom: 40px;
+    right: 20px;
+  }
+  .text-coming p {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 30px;
+    color: #000000;
+  }
+  .links li{
+      padding-top:30px;
+  }
+}
+
+.text-coming {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 30px;
+  color: #000000;
+}
+@media screen and (min-device-width: 1200px) and (max-device-width: 11920px) and (-webkit-min-device-pixel-ratio: 1) {
+  .links li {
+    display: inline;
+    padding: 40px;
+  }
+
+  .cont-landing {
+    
+    margin: 200px;
+    position: fixed;
+    width: 50px;
+  }
+  .links {
+    
+    margin-top: 400px;
+  }
+  .decorators {
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+    display: flex;
+    align-items: center;
+  }
+}
